@@ -42,6 +42,8 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
 
+Plug 'tpope/vim-fugitive'
+
 " Colorscheme
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 
