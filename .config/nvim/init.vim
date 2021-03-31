@@ -44,6 +44,12 @@ Plug 'vim-airline/vim-airline'
 
 Plug 'tpope/vim-fugitive'
 
+Plug 'mattn/emmet-vim'
+
+Plug 'sheerun/vim-polyglot'
+
+Plug 'tpope/vim-commentary'
+
 " Colorscheme
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
 
