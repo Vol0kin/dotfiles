@@ -1,5 +1,6 @@
 adobe-source-han-sans-otc-fonts
 alsa-utils
+android-studio
 autoconf
 automake
 base
@@ -24,6 +25,7 @@ flex
 gawk
 gcc
 gettext
+gimp
 git
 google-chrome
 grep
@@ -70,11 +72,15 @@ maven
 milou
 neofetch
 neovim
+nerd-fonts-fira-code
 networkmanager
 noto-fonts
 noto-fonts-emoji
+ntfs-3g
+nvidia
 okular
 openssh
+os-prober
 oxygen
 packagekit-qt5
 pacman
@@ -95,6 +101,7 @@ plasma-vault
 plasma-workspace
 plasma-workspace-wallpapers
 polkit-kde-agent
+postman-bin
 powerdevil
 pulseaudio
 pulseaudio-alsa
@@ -113,8 +120,10 @@ thunderbird
 tree
 ttf-fira-code
 ttf-hack
+update-grub
 vi
 vim
+vlc
 which
 xclip
 xdg-desktop-portal-kde

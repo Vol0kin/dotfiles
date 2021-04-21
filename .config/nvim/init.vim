@@ -34,26 +34,69 @@ set softtabstop=0
 
 " Other {{{2
 set mouse=nvi
+set foldmethod=marker
 " }}}2
 " }}}1
 
-" Plugins
+" Plugins {{{1
 call plug#begin('~/.vim/plugged')
 
+" ALE (Asynchronous Lint Engine) {{{2
+Plug 'dense-analysis/ale'
+" }}}2
+
+" Airline {{{2
 Plug 'vim-airline/vim-airline'
+" }}}2
 
+" Surround {{{2
+Plug 'tpope/vim-surround'
+" }}}2
+
+" Fugitive {{{2
 Plug 'tpope/vim-fugitive'
+" }}}2
 
+" Emmet {{{2
 Plug 'mattn/emmet-vim'
 
+let g:user_emmet_leader_key=','
+" }}}2
+
+" Prettier {{{2
+Plug 'prettier/vim-prettier', { 'do': 'npm install' }
+" }}}2
+
+" Polyglot {{{2
 Plug 'sheerun/vim-polyglot'
+" }}}2
 
+" Commentary {{{2
 Plug 'tpope/vim-commentary'
+" }}}2
 
-" Colorscheme
+" NERDTree {{{2
+Plug 'preservim/nerdtree'
+
+" Devicons {{{3
+Plug 'ryanoasis/vim-devicons'
+" }}}3
+
+" Syntax highlight {{{3
+Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+
+let g:NERDTreeFileExtensionHighlightFullName = 1
+let g:NERDTreeExactMatchHighlightFullName = 1
+let g:NERDTreePatternMatchHighlightFullName = 1
+" }}}3
+" }}}2
+
+" Colorscheme {{{2
 Plug 'challenger-deep-theme/vim', { 'as': 'challenger-deep' }
+" }}}2
 
 call plug#end()
+" }}}1
 
 if has('nvim') || has('termguicolors')
 	set termguicolors
