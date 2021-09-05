@@ -78,6 +78,15 @@ Plug 'tpope/vim-commentary'
 " NERDTree {{{2
 Plug 'preservim/nerdtree'
 
+let NERDTreeShowHidden=1
+
+let NERDTreeIgnore = ['\.git$']
+
+" Customize icons
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols = {}
+let g:WebDevIconsUnicodeDecorateFileNodesExactSymbols['.gitignore'] = ''
+
+
 " Devicons {{{3
 Plug 'ryanoasis/vim-devicons'
 " }}}3

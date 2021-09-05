@@ -9,6 +9,7 @@ bat
 binutils
 bison
 bluedevil
+bluez-utils
 breeze
 breeze-gtk
 chromium
@@ -125,6 +126,7 @@ ttf-fira-code
 ttf-hack
 unzip
 update-grub
+usbutils
 vi
 vim
 visual-studio-code-bin
